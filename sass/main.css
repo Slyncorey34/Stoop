@@ -1,0 +1,42 @@
+/*
+Error: Invalid CSS after "}": expected "}", was ""
+        on line 84 of stylesheets/main.scss
+
+79: 	text-decoration: none; }
+80: 	}
+81: #m3btn {
+82: 	margin: 9px 200px;
+83: 	width: 200px;
+84: }
+
+Backtrace:
+stylesheets/main.scss:84
+/Users/Administrator/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:1179:in `expected'
+/Users/Administrator/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:1115:in `expected'
+/Users/Administrator/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:1110:in `tok!'
+/Users/Administrator/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:656:in `block'
+/Users/Administrator/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:647:in `ruleset'
+/Users/Administrator/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:673:in `block_child'
+/Users/Administrator/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:666:in `block_contents'
+/Users/Administrator/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:123:in `stylesheet'
+/Users/Administrator/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:39:in `parse'
+/Users/Administrator/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/engine.rb:403:in `_to_tree'
+/Users/Administrator/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Users/Administrator/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Users/Administrator/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Users/Administrator/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/Administrator/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/Administrator/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/Administrator/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:471:in `on_file_changed'
+/Users/Administrator/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Users/Administrator/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Users/Administrator/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Users/Administrator/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/Administrator/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+/Users/Administrator/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+/Users/Administrator/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 84 of stylesheets/main.scss\A \A 79: 	text-decoration: none; }\A 80: 	}\A 81: #m3btn {\A 82: 	margin: 9px 200px;\A 83: 	width: 200px;\A 84: }"; }
